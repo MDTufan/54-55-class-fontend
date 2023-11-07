@@ -1,0 +1,22 @@
+.xx{
+    width: 50%;
+    margin: auto;
+    background-color:cadetblue;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.design{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px;
+   
+}
+
+.xxx{
+    border: 2px solid red;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: antiquewhite;
+}
