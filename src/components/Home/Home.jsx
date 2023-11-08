@@ -12,7 +12,7 @@ const handldelete=(users)=>{
 
    const agree=window.confirm(`${users.name} are you went to delete`);
    if(agree){
-   fetch(`http://localhost:3001/users/${users._id}`,{
+   fetch(`https://backend-ou3o72jwq-mdtufan.vercel.app/users/${users._id}`,{
     method:"DELETE"
    })
    

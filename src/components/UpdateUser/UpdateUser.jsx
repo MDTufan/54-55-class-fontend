@@ -9,7 +9,7 @@ const UpdateUser = () => {
   const handleUpdate=(event)=>{
     event.preventDefault();
     // console.log("Click");
-  fetch(`http://localhost:3001/users/${storeuser._id}`,{
+  fetch(`https://backend-ou3o72jwq-mdtufan.vercel.app/users/${storeuser._id}`,{
     method:"PUT",
     headers:{"content-type":"application/json"},
     body:JSON.stringify(user)

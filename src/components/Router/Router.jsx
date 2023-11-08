@@ -16,7 +16,7 @@ const router=createBrowserRouter([
           {
             path: "/",
             element: <Home />,
-            loader:()=>fetch("http://localhost:3001/users")
+            loader:()=>fetch("https://backend-ou3o72jwq-mdtufan.vercel.app/users")
            
            
           },
@@ -30,7 +30,7 @@ const router=createBrowserRouter([
           {
             path: "/updateuser/:id",
             element: <UpdateUser />,
-            loader:({params})=>fetch(`http://localhost:3001/users/${params.id}`)
+            loader:({params})=>fetch(`https://backend-ou3o72jwq-mdtufan.vercel.app/users/${params.id}`)
            
           },
           

@@ -17,7 +17,7 @@ const Adduser = () => {
 const handleonSubmit=(event)=>{
   event.preventDefault();
   // console.log("Click");
-fetch("http://localhost:3001/user",{
+fetch("https://backend-ou3o72jwq-mdtufan.vercel.app/user",{
   method:"POST",
   headers:{"content-type":"application/json"},
   body:JSON.stringify(user)
